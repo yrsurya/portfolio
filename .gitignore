@@ -1,0 +1,31 @@
+# Ignore the generated _site directory (unless you're manually pushing it)
+_site/
+
+# Ignore cache and temp files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS and Editor junk
+.DS_Store
+Thumbs.db
+
+# Ignore log and temp files
+*.log
+*.tmp
+
+# Node dependencies (if using any frontend tools)
+node_modules/
+
+# VS Code
+.vscode/
+
+# Ignore dependencies if using bundler
+vendor/
+
+# Ignore Ruby environment file if using rbenv or rvm
+.rbenv-version
+.ruby-version
+
+# If using Jekyll Admin plugin
+.jekyll-admin
